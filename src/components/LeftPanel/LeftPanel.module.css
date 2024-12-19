@@ -1,0 +1,15 @@
+@import '/src/variables/vars.css';
+.left-panel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: var(--sidebar-width);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: rgba(255, 255, 255, 0.03);
+	transition: transform 0.3s ease;
+}
+.collapse{
+	transform: translateX(calc(0px - var(--sidebar-width)));
+}

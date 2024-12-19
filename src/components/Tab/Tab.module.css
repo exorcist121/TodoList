@@ -1,0 +1,24 @@
+.tab {
+	border-radius: 3px;
+	background: none;
+	color: #FFF;
+	padding: 20px 10px;
+	border: none;
+	cursor: pointer;
+	text-align: start;
+	display: block;
+	width: 100%;
+	transition: background 0.3s ease;
+}
+
+.tab:hover {
+	background: rgba(255, 255, 255, 0.10);
+}
+.active{
+	background: rgba(255, 255, 255, 0.10);
+}
+.project-ul__item,
+.functions-ul__item{
+	display: flex;
+	align-items: center;
+}

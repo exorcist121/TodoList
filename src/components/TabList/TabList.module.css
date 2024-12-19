@@ -1,0 +1,33 @@
+.tabs-ul{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.tabs-ul__icon{
+	width: 24px;
+	height: 24px;
+	margin: 0px 5px;
+}
+.projects{
+	width: 100%;
+	position: relative;
+}
+.projects summary{
+	list-style: none;
+	padding: 20px 20px;
+	cursor: pointer;
+}
+.projects summary::after {
+	position: absolute;
+	left: calc(100% - 44px);
+	content: url(/public/change.svg);
+	transition: transform 0.3s ease;
+	height: 24px;
+}
+.projects[open] summary::after {
+	transform: rotate(180deg);
+}
+.projects summary:hover {
+	background: rgba(255, 255, 255, 0.10);
+}
+

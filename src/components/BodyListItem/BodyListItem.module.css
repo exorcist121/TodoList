@@ -1,0 +1,6 @@
+.list-item{
+	display: none;
+	}
+.active{
+		display: block;
+}
