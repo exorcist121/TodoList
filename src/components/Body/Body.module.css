@@ -4,7 +4,7 @@
 	margin: 0px auto;
 	text-align: center;
 	transform: translateX(calc(var(--sidebar-width) / 2));
-	padding-left: calc(var(--sidebar-width) / 2);
+	/* padding-left: calc(var(--sidebar-width) / 2); */
 	transition: all .3s ease;
 }
 .collapse{

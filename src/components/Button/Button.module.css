@@ -1,18 +1,15 @@
 .button {
-	border-radius: 6px;
-	padding: 8px 30px;
+	display: flex;
+	align-items: center;
 	font-family: inherit;
+	max-width: 135px;
+	padding: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.03);
+	border-radius: 6px;
 	cursor: pointer;
 	transition: background 0.25s;
-	font-size: 16px;
-	border: none;
-	max-width: 135px;
 }
 
-.accent:hover {
-	background: #222096;
-}
-
-.accent {
-	background: #312EB5;
+.button:hover {
+	background: rgba(255, 255, 255, 0.10);
 }

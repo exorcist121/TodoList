@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 0rem 2rem;
 }
+button{
+	background: none;
+}
 .app{
 	width: 100%;
 	overflow: hidden;
