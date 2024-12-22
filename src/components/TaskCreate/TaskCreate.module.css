@@ -33,3 +33,13 @@
 	padding: 5px 10px 10px;
 	gap: 10px;
 }
+button.red{
+	padding: 10px;
+	background: rgba(226, 8, 8, 0.664);
+}
+button.red:hover{
+	background: rgba(226, 8, 8, 0.4);
+}
+button.big{
+	padding: 10px;
+}

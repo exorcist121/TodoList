@@ -14,8 +14,8 @@ function TaskCreate() {
 				<Button type='button'><img src="/taskIcon-2.svg" alt="" />Напоминание</Button>
 			</div>
 			<div className={styles['form-controls']}>
-				<Button type='reset'>Отмена</Button>
-				<Button type='submit'>Добавить задачу</Button>
+				<Button type='reset' className={styles['big']}>Отмена</Button>
+				<Button type='submit' className={styles['red']}>Добавить задачу</Button>
 			</div>
 		</form>
 	);
